@@ -15,3 +15,4 @@ docker exec -it clarke-web-1 sh
 # cat /etc/nginx/conf.d/default.conf
 
 
+docker compose up --build -d
