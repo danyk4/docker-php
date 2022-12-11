@@ -1,0 +1,17 @@
+docker compose up -d
+
+docker ps
+
+docker compose ps
+
+// build php image with extensions
+docker build -t danyk:php81 -f php/Dockerfile .
+
+docker images
+
+// look inside container, -it means interactive
+docker exec -it clarke-web-1 sh
+
+# cat /etc/nginx/conf.d/default.conf
+
+
